@@ -1,1 +1,1 @@
-web: python <script.py>
+web: gunicorn stubhub.wsgi --log-file -
