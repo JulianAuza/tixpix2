@@ -11,9 +11,9 @@
             <p>Search by Category
             <select class="search_filter" name='category' onchange="this.form.submit()" height="200px">
                     <option disabled selected value>Select</option>
-                    {% for category in categories %}
+                    <!-- {% for category in categories %}
                         <option value="{{category.display_tag}}">{{category.display_tag}}</option>
-                    {% endfor %}
+                    {% endfor %} -->
             </select>
             <label for='event_date'>Search by Date</label>
             <input type='date' id='date_search' name='event_date' onchange="this.form.submit()"></p>
