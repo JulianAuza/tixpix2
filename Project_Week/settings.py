@@ -27,7 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['enigmatic-plains-33835.herokuapp.com', 'localhost', '127.0.0.1']
 
-
+ADMINS = (('Julian Auza', 'Julianauza@gmail.com'),)
 # Application definition
 
 INSTALLED_APPS = [
