@@ -25,7 +25,7 @@ SECRET_KEY = '!ob29ua-)^2tpb1e#^o^zbpzz&=i4mrm)gji_^te)dv^(c^^@p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['enigmatic-plains-33835.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
